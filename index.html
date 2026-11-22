@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+<script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="slidr.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <nav class="navbar md:navbar-expand" bg-1>
+  <div class="container-fluid" style="background-color: rgb(101, 199, 199); height: 150px; color: white; margin-top: -8px;" >
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#navbarDrawer" aria-controls="navbarDrawer" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" aria-hidden="true"></span>
+    </button>
+    <dialog class="drawer drawer-end" tabindex="-1" id="navbarDrawer" aria-labelledby="navbarDrawerLabel">
+      <div class="drawer-header">
+        <h5 class="drawer-title" id="navbarDrawerLabel" style="color:white;"></h5>>Menu</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
+      </div>
+      <div class="drawer-body mb-2 md:mb-0">
+        <ul class="nav navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <button class="nav-link" type="button" data-bs-toggle="menu" aria-expanded="false">
+              Menu
+            </button>
+            <div class="menu">
+              <a class="menu-item" href="#">Action</a>
+              <a class="menu-item" href="#">Another action</a> 
+              <hr class="menu-divider">
+              <a class="menu-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="hstack gap-2" role="search">
+          <input class="form-control" type="search" placeholder="Search" aria-label="Search"/ style="width: 350px;">
+          <button class="btn-solid btn-icon theme-primary" type="submit" style="width: 100px; height: 40px; ">submit
+            <svg class="bi" width="20" height="16"><use href="#search" /></svg>
+          </button>
+        </form>
+      </div>
+    </dialog>
+  </div>
+</nav>
+
+<STYle>
+.navbar{
+  
+}
+.container{
+  display: flex;
+  margin-top:5%;
+  
+  gap:5px;
+}
+.sub-contain{
+
+  display: flex;
+  align-self:right;
+  margin-bottom: 8%;
+  
+}
+
+
+.card{
+      
+  
+        width:450px;
+        border:none;
+        
+        
+      
+    }
+    h4{
+        font-size:60px;
+        font-weight:300px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(241, 53, 109);
+        padding-right:20px;
+      
+    }
+   .card-1 img{
+      width: 247px;
+      height: 300px;
+    }
+    .card2 img{
+      width: 247px;
+      height: 350px;
+    }
+    .card3 img{
+      width: 247px;
+
+      height: 450px;
+    }
+    .art{
+      width: 100px;
+      height: 80px;
+    }
+    .art img{
+      width: 60px;
+      height: 60px;
+       margin-top:20px;
+       margin-left: 40px;
+
+    }
+    h1{
+      padding-left:20%;
+      margin-top: -20px;
+      font-style: italic;
+      color: rgb(25, 121, 121);
+      font-family:
+      
+    }
+    .img1-frame {
+      width: 250px;
+      height: 350px;
+      border: 10px solid black;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px grey;
+      margin-top:50px;
+
+    }
+    .img1-frame img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 10px;
+    } 
+
+    .img2-frame {
+      width: 250px;
+      height: 350px;
+      border: 10px solid black;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px grey;
+      margin-top: 50px;
+
+    }
+    .img2-frame img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 10px;
+    } 
+
+    .img3-frame {
+      width: 250px;
+      height: 350px;
+      border: 10px solid black;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px grey;
+margin-top: 50px;
+    }
+    .img3-frame img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 10px;
+    } 
+
+    .img4-frame {
+      width: 250px;
+      height: 350px;
+      border: 10px solid black;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px grey;
+margin-top: 50px;
+    }
+    .img4-frame img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 10px;
+    } 
+
+
+
+</STYle>
+<div class="art">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaoS4nf5ENJ05wfkfSbWLV-E62Fep2Gn1MePNUWUZwqfj6vWeAFXIF8fw&s" alt="">
+  <h1>artiya</h1>
+</div>
+<div class="container">
+<div class="card" style="width:450px; height: 400px;">
+  <div class="card-body">
+    <h4 class="card-title">decore your home</h4>
+    <p class="card-subtit le fg-5" style="color: black; font-size:20px;"><i>With stylish classy painting</i> </p>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>
+    <a href="#">open link</a>
+  </div>
+</div>
+
+<div class="sub-contain">
+<div class="card-1" style="width:250px; height: 400px; border: 1px solid white">
+  <div class="card-1-body">
+    <img src="https://media.istockphoto.com/id/2256281264/photo/watercolor-paint-set-with-vivid-colors.jpg?s=1024x1024&w=is&k=20&c=9yKWfXxd0CYbmHZaUAQI5WhQrE5gJCZmmFeVpMxCibc=" class="card-1-img" alt="..."> 
+    <h5 class="mt-2 mb-0" style="font-size: 20px;">Perfect colour sades</h5>
+    <p class="card-1 -text fg-2">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <small class="fg-3">Last updated 3 mins ago</small>
+  </div>
+</div>
+
+<div class="card2" style="width:250px; height: 450px; border: 1px solid white;  ">
+  <div class="card2-body">
+    <img src="https://as2.ftcdn.net/jpg/01/17/52/65/1000_F_117526556_8hx5uV66tTJ41lHvSYotLwYuN6BQRSQQ.jpg" class="card2-img" alt="...">
+    <h5 class="mt-2 mb-0" style="font-size: 20px;">Using modren techniques</h5>
+    <p class="card2-text fg-2">Some quick example text to build on the card2 title and make up the bulk of the card2's content.</p>
+    <small class="fg-3">Last updated 3 mins ago</small>
+  </div>
+</div>
+
+<div class="card3" style="width:250px; height: 500px; border: 1px solid white;">
+  <div class="card3-body">
+    <img src="https://plus.unsplash.com/premium_photo-1676668708126-39b12a0e9d96?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" class="card3-img" alt="...">
+    <h5 class="mt-2 mb-0" style="font-size: 20px;">Blend of new shades</h5>
+    <p class="card3-text fg-2">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <small class="fg-3">Last updated 3 mins ago</small>
+  </div>
+</div>
+</div>
+</div>
+
+<!-- carousel-item -->
+<div id="carouselStacked" class="carousel slide">
+  <div class="d-flex justify-content-between align-items-center">
+    <h5 class="mb-0" style="font-size: 20px; margin-left: 20px;"> <u>Top Trending</u></h5>
+    <div>
+      <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselStacked" data-bs-slide="prev">
+        <span class="carousel-icon-prev" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselStacked" data-bs-slide="next">
+        <span class="carousel-icon-next" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <div class="carousel-inner rounded-5" style="height:500px;">
+    <div class="carousel-item active">
+      <img src="https://i.ytimg.com/vi/r8gqj7m_K-o/maxresdefault.jpg" class="d-block w-100" style=" height: 500px;object-fit:cover;" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://kotart.in/cdn/shop/files/PaintingGSBR686_1_-642_xol327.jpg?v=1786136511&width=1445" class="d-block w-100 " style="height: 500px;" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTStxufPdfTRFCHtd2QLvdtwMtR4ziIZWJ5hnoyyy2guM0OY9fdiRdhTKlO&s=10" class="d-block w-100  " style="height: 500px;" alt="...">
+    </div>
+  </div>
+</div>
+
+<figure class="blockquote text-center">
+  <blockquote>
+    <p style="font-size:25px; font-weight:bold;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; padding-top: 25px; margin-top:8%;">Choose Your Favourite Seenry From Here</p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    Someone famous in <cite title="Source Title ">Source Title</cite>
+  </figcaption>
+</figure>
+
+<!-- frames -->
+
+
+<div class="frames" style=" height:600px;display:flex; justify-content:space-around; margin-top:5%; background-color: rgb(240, 238, 238);">
+
+<div class="img1-frame" style=" align-items: center;">
+  <div class="frame-body" style="  background-image:url(https://i.pinimg.com/736x/60/6e/bb/606ebbc439f8191df82c058ba534010a.jpg); height: 100%; background-size: cover;">
+    
+  </div>
+   <a href="#" style="margin-top:30px; display: block;">Click here</a>
+  <button style="width: 220px; height:50px; border-radius:10px; background-color:aliceblue; border: none;margin-top: 30px;">add to cart-Rs:5000</button>
+</div>
+
+<div class="img2-frame" style="align-items: center;">
+  <div class="card-body" style=" height: 100%;background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbz3KdwxAe4VyMAUneh76KrruAjJl9oOV-PFvRCK4B40YtBch6vEinl-h7&s=10);background-size: cover; ">
+  
+  </div>
+ <a href="#" style="padding-top:20px; display: block;">Click here</a>
+  <button style="width: 220px; height:50px; border-radius:10px; margin-top:40px;background-color: aliceblue; border: none;">add to cart-Rs:5000</button>
+</div>
+
+
+<div class="img3-frame" style=" align-items: center;">
+  <div class="card-body" style=" height: 100%; background-image:url(https://media.istockphoto.com/id/2214649886/photo/oil-painting-landscape-colorful-autumn-trees-semi-abstract-paintings-image-of-forest-aspen.jpg?s=1024x1024&w=is&k=20&c=ifJRqgFMQLGwJ1BwTi6v3y--0fXG9w92AoWnD3ZHZCI=); background-size: cover;">
+  
+  </div>
+
+   <a href="#" style="padding-top:20px; display: block;">Click here</a>
+  <button style="width: 220px; height:50px; border-radius:10px; margin-top:40px;background-color: aliceblue; border: none;">add to cart-Rs:5000</button>
+</div>
+
+<div class="img4-frame" style="align-items: center;">
+  <div class="card-body" style=" height: 100%;background-image: url(https://images.unsplash.com/photo-1579167728798-a1cf3d595960?q=80&w=426&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D); background-size: cover;">
+   
+  </div>
+   <a href="#" style="padding-top:20px; display: block;">Click here</a>
+  <button style="width: 220px; height:50px; border-radius:10px; margin-top:40px;background-color: aliceblue; border: none;">add to cart-Rs:5000</button>
+</div>
+</div>
+
+
+
+</body>
+ 
+ </html>                                                                                                                                                                                                                                      
